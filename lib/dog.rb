@@ -22,7 +22,7 @@ class Dog
 
   def self.print_all
     @@all.each_with_index.map do |name, index|
-      puts name
+      puts "#{name}"
     end
   end
 end
