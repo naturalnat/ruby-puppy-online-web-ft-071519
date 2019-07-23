@@ -24,6 +24,5 @@ class Dog
     @@all.each.map
     #  do |dog|
     #   puts "#{name}\n"
-    end
   end
 end
