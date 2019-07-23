@@ -21,7 +21,7 @@ class Dog
   end
 
   def self.print_all
-    @@all.each do |name|
+    @@all.each_with_index do |name, index|
       puts "#{name}\n"
     end
   end
