@@ -21,6 +21,7 @@ class Dog
   end
 
   def print_all
-    @@all
+    @@all.each.map do |dog|
+      puts dog 
   end
 end
