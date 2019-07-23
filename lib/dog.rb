@@ -21,7 +21,6 @@ class Dog
   end
 
   def self.print_all
-    @@all
-    puts @@all
+    puts self
   end
 end
