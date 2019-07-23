@@ -21,6 +21,7 @@ class Dog
   end
 
   def self.print_all
-    @@all[:name]
+    @@all.each_with_index.map do |name, key|
+      puts "#{name}"
   end
 end
